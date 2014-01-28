@@ -14,10 +14,10 @@
  */
 package com.nesscomputing.syslog4j.impl.message.modifier;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.SyslogMessageModifierConfigIF;
 import com.nesscomputing.syslog4j.SyslogMessageModifierIF;
+
+import org.apache.commons.lang3.StringUtils;
 
 public abstract class AbstractSyslogMessageModifier implements SyslogMessageModifierIF {
     protected SyslogMessageModifierConfigIF messageModifierConfig = null;

@@ -16,13 +16,13 @@ package com.nesscomputing.syslog4j.test.unix.socket;
 
 import static com.nesscomputing.syslog4j.SyslogConstants.SOCK_STREAM;
 
-import junit.framework.TestCase;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.impl.unix.socket.UnixSocketSyslogConfig;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import junit.framework.TestCase;
 
 public class UnixSocketSyslogTest extends TestCase {
     public void testUnixSyslog() {

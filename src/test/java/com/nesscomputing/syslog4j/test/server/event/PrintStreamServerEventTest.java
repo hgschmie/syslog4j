@@ -22,10 +22,8 @@ import java.net.UnknownHostException;
 import java.nio.charset.Charset;
 import java.util.Date;
 
-import junit.framework.TestCase;
-
-
 import com.google.common.base.Charsets;
+
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.server.SyslogServer;
@@ -37,6 +35,8 @@ import com.nesscomputing.syslog4j.server.impl.event.printstream.FileSyslogServer
 import com.nesscomputing.syslog4j.server.impl.event.printstream.PrintStreamSyslogServerEventHandler;
 import com.nesscomputing.syslog4j.server.impl.event.printstream.SystemErrSyslogServerEventHandler;
 import com.nesscomputing.syslog4j.server.impl.event.printstream.SystemOutSyslogServerEventHandler;
+
+import junit.framework.TestCase;
 
 public class PrintStreamServerEventTest extends TestCase {
     public void testPrintStreamEvent() {

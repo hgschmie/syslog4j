@@ -18,10 +18,8 @@ import java.net.SocketAddress;
 import java.util.Collections;
 import java.util.List;
 
-import org.apache.log4j.Logger;
-
 import com.google.common.collect.Lists;
-import com.nesscomputing.syslog4j.Syslog;
+
 import com.nesscomputing.syslog4j.impl.net.udp.UDPNetSyslogConfig;
 import com.nesscomputing.syslog4j.server.SyslogServer;
 import com.nesscomputing.syslog4j.server.SyslogServerEventIF;
@@ -29,6 +27,8 @@ import com.nesscomputing.syslog4j.server.SyslogServerIF;
 import com.nesscomputing.syslog4j.server.SyslogServerSessionEventHandlerIF;
 import com.nesscomputing.syslog4j.server.impl.net.AbstractNetSyslogServerConfig;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.log4j.Logger;
 
 public abstract class AbstractLog4jSyslog4jTest extends AbstractBaseTest {
 

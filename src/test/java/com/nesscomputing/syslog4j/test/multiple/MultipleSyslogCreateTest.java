@@ -18,9 +18,8 @@ import static com.nesscomputing.syslog4j.SyslogConstants.USE_STRUCTURED_DATA_DEF
 
 import java.nio.charset.Charset;
 
-import junit.framework.TestCase;
-
 import com.google.common.base.Charsets;
+
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogBackLogHandlerIF;
 import com.nesscomputing.syslog4j.SyslogConfigIF;
@@ -35,6 +34,8 @@ import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.message.processor.SyslogMessageProcessor;
 import com.nesscomputing.syslog4j.impl.message.processor.structured.StructuredSyslogMessageProcessor;
 import com.nesscomputing.syslog4j.impl.multiple.MultipleSyslogConfig;
+
+import junit.framework.TestCase;
 
 public class MultipleSyslogCreateTest extends TestCase {
     public static class FakeSyslog implements SyslogIF {

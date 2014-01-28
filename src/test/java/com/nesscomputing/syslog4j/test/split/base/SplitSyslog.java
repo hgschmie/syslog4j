@@ -16,14 +16,15 @@ package com.nesscomputing.syslog4j.test.split.base;
 
 import java.util.List;
 
-import org.apache.log4j.Logger;
-
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslog;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogWriter;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.log4j.Logger;
 
 public class SplitSyslog extends AbstractSyslog {
     protected static final Logger LOG = Logger.getLogger("test");

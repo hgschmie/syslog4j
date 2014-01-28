@@ -14,13 +14,13 @@
  */
 package com.nesscomputing.syslog4j.impl.pool;
 
-import org.apache.commons.pool.BasePoolableObjectFactory;
-import org.apache.commons.pool.ObjectPool;
-
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslog;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogConfigIF;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogWriter;
+
+import org.apache.commons.pool.BasePoolableObjectFactory;
+import org.apache.commons.pool.ObjectPool;
 
 /**
 * AbstractSyslogPoolFactory is an abstract implementation of the Apache Commons Pool

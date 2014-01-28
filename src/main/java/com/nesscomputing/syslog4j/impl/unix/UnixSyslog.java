@@ -16,9 +16,11 @@ package com.nesscomputing.syslog4j.impl.unix;
 
 import java.util.Map;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.google.common.collect.Maps;
+import com.sun.jna.Library;
+import com.sun.jna.Memory;
+import com.sun.jna.Native;
+
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogMessageProcessorIF;
@@ -26,9 +28,8 @@ import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslog;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogWriter;
 import com.nesscomputing.syslog4j.util.OSDetectUtility;
-import com.sun.jna.Library;
-import com.sun.jna.Memory;
-import com.sun.jna.Native;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
 * UnixSyslog is an extension of AbstractSyslog that provides support for

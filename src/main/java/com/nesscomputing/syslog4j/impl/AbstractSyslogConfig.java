@@ -17,9 +17,9 @@ package com.nesscomputing.syslog4j.impl;
 import java.nio.charset.Charset;
 import java.util.List;
 
-
 import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.SyslogBackLogHandlerIF;
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogFacility;

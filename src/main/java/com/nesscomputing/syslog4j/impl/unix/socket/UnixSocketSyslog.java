@@ -16,16 +16,16 @@ package com.nesscomputing.syslog4j.impl.unix.socket;
 
 import java.nio.ByteBuffer;
 
-
 import com.google.common.base.Charsets;
+import com.sun.jna.Library;
+import com.sun.jna.Native;
+import com.sun.jna.Structure;
+
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslog;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogWriter;
 import com.nesscomputing.syslog4j.util.OSDetectUtility;
-import com.sun.jna.Library;
-import com.sun.jna.Native;
-import com.sun.jna.Structure;
 
 import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 

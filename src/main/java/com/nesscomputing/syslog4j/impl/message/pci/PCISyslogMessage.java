@@ -17,9 +17,9 @@ package com.nesscomputing.syslog4j.impl.message.pci;
 import java.util.Date;
 import java.util.Map;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.impl.message.AbstractSyslogMessage;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
 * PCISyslogMessage provides support for audit trails defined by section

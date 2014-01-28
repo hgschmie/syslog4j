@@ -18,10 +18,8 @@ import static com.nesscomputing.syslog4j.SyslogConstants.IDENT_SUFFIX_DEFAULT;
 
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
-
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.SyslogBackLogHandlerIF;
 import com.nesscomputing.syslog4j.SyslogConfigIF;
 import com.nesscomputing.syslog4j.SyslogFacility;
@@ -36,6 +34,9 @@ import com.nesscomputing.syslog4j.impl.message.processor.structured.StructuredSy
 import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessage;
 import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessageIF;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 /**
 * AbstractSyslog provides a base abstract implementation of the SyslogIF.
 *

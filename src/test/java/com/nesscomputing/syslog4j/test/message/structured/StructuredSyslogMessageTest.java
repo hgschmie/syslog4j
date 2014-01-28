@@ -51,14 +51,14 @@ package com.nesscomputing.syslog4j.test.message.structured;
 import java.net.InetAddress;
 import java.util.Map;
 
-import junit.framework.TestCase;
-
 import com.google.common.collect.Maps;
-
-import org.junit.Assert;
 
 import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessage;
 import com.nesscomputing.syslog4j.server.impl.event.structured.StructuredSyslogServerEvent;
+
+import org.junit.Assert;
+
+import junit.framework.TestCase;
 
 public class StructuredSyslogMessageTest extends TestCase
 {

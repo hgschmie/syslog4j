@@ -18,16 +18,17 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Maps;
+
 import com.nesscomputing.syslog4j.impl.net.tcp.TCPNetSyslogConfig;
 import com.nesscomputing.syslog4j.impl.net.udp.UDPNetSyslogConfig;
 import com.nesscomputing.syslog4j.impl.unix.UnixSyslogConfig;
 import com.nesscomputing.syslog4j.impl.unix.socket.UnixSocketSyslogConfig;
 import com.nesscomputing.syslog4j.util.OSDetectUtility;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * This class provides a Singleton interface for Syslog4j client implementations.

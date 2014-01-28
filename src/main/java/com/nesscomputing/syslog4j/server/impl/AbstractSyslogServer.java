@@ -26,8 +26,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import com.google.common.collect.Maps;
 
-import org.apache.log4j.Logger;
-
 import com.nesscomputing.syslog4j.SyslogCharSetIF;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.server.SyslogServerConfigIF;
@@ -39,6 +37,8 @@ import com.nesscomputing.syslog4j.server.SyslogServerSessionlessEventHandlerIF;
 import com.nesscomputing.syslog4j.server.impl.event.SyslogServerEvent;
 import com.nesscomputing.syslog4j.server.impl.event.structured.StructuredSyslogServerEvent;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.log4j.Logger;
 
 /**
 * AbstractSyslogServer provides a base abstract implementation of the SyslogServerIF.

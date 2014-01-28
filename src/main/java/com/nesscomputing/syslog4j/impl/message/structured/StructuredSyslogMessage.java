@@ -23,10 +23,10 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Maps;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.impl.message.AbstractSyslogMessage;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * SyslogStructuredMessage extends AbstractSyslogMessage's ability to provide

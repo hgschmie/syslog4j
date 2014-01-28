@@ -14,9 +14,9 @@
  */
 package com.nesscomputing.syslog4j;
 
-import junit.framework.TestCase;
-
 import org.apache.log4j.Logger;
+
+import junit.framework.TestCase;
 
 public abstract class AbstractBaseTest extends TestCase {
     protected static final Logger LOG = Logger.getLogger("test");

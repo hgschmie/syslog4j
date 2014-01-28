@@ -20,8 +20,8 @@ import java.util.zip.Adler32;
 
 import javax.crypto.spec.SecretKeySpec;
 
-
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.AbstractNetSyslog4jTest;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;

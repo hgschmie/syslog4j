@@ -21,13 +21,13 @@ import java.net.InetAddress;
 import java.net.SocketException;
 import java.net.UnknownHostException;
 
-import org.apache.log4j.Logger;
-
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.server.SyslogServerEventIF;
 import com.nesscomputing.syslog4j.server.impl.AbstractSyslogServer;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.log4j.Logger;
 
 /**
 * UDPNetSyslogServer provides a simple non-threaded UDP/IP server implementation.

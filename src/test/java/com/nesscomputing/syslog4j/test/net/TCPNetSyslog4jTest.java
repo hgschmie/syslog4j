@@ -16,7 +16,6 @@ package com.nesscomputing.syslog4j.test.net;
 
 import java.net.SocketAddress;
 
-
 import com.nesscomputing.syslog4j.AbstractNetSyslog4jTest;
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogIF;

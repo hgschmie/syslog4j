@@ -21,9 +21,9 @@ import static com.nesscomputing.syslog4j.SyslogConstants.USE_STRUCTURED_DATA_DEF
 import java.nio.charset.Charset;
 import java.util.List;
 
-
 import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.server.SyslogServerConfigIF;
 import com.nesscomputing.syslog4j.server.SyslogServerEventHandlerIF;

@@ -16,10 +16,6 @@ package com.nesscomputing.syslog4j.test.message.modifier;
 
 import java.util.Arrays;
 
-import junit.framework.TestCase;
-
-import org.apache.log4j.Logger;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;
@@ -36,6 +32,10 @@ import com.nesscomputing.syslog4j.impl.message.modifier.text.PrefixSyslogMessage
 import com.nesscomputing.syslog4j.impl.message.modifier.text.StringCaseSyslogMessageModifier;
 import com.nesscomputing.syslog4j.impl.message.modifier.text.SuffixSyslogMessageModifier;
 import com.nesscomputing.syslog4j.util.Base64;
+
+import org.apache.log4j.Logger;
+
+import junit.framework.TestCase;
 
 public class SyslogMessageModifierVerifyTest extends TestCase {
     protected static final Logger LOG = Logger.getLogger("test");

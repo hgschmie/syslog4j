@@ -25,15 +25,10 @@ import java.util.Map;
 
 import javax.crypto.spec.SecretKeySpec;
 
-import junit.framework.TestCase;
-
-import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
-import org.junit.Assert;
-
 import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogBackLogHandlerIF;
 import com.nesscomputing.syslog4j.SyslogConfigIF;
@@ -88,6 +83,12 @@ import com.nesscomputing.syslog4j.server.impl.event.structured.StructuredSyslogS
 import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServerConfig;
 import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServerConfigIF;
 import com.nesscomputing.syslog4j.server.impl.net.udp.UDPNetSyslogServerConfig;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.LoggerFactory;
+import org.junit.Assert;
+
+import junit.framework.TestCase;
 
 public class SyslogParameterTest extends TestCase {
     public static class FakeSyslogConfig implements SyslogConfigIF {

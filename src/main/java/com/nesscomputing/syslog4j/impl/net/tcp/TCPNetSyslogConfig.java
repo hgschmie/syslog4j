@@ -16,6 +16,7 @@ package com.nesscomputing.syslog4j.impl.net.tcp;
 
 
 import com.google.common.base.Charsets;
+
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;

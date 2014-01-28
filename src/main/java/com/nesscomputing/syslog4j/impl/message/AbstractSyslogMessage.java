@@ -19,9 +19,9 @@ import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.log4j.Logger;
-
 import com.nesscomputing.syslog4j.SyslogMessageIF;
+
+import org.apache.log4j.Logger;
 
 /**
 * AbstractSyslogMessage provides support for turning POJO (Plain Ol'

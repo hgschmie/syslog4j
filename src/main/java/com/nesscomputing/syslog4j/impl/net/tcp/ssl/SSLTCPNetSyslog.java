@@ -14,10 +14,10 @@
  */
 package com.nesscomputing.syslog4j.impl.net.tcp.ssl;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.net.tcp.TCPNetSyslog;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
 * SSLTCPNetSyslog is an extension of AbstractSyslog that provides support for

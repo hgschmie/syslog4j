@@ -19,10 +19,10 @@ import java.io.IOException;
 import javax.net.ServerSocketFactory;
 import javax.net.ssl.SSLServerSocketFactory;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServer;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
 * SSLTCPNetSyslogServer provides a simple threaded TCP/IP server implementation

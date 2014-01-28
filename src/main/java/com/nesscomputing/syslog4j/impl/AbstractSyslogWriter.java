@@ -16,8 +16,8 @@ package com.nesscomputing.syslog4j.impl;
 
 import java.util.List;
 
-
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.util.SyslogUtility;

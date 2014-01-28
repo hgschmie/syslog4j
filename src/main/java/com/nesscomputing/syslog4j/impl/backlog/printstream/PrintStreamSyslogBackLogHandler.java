@@ -16,12 +16,12 @@ package com.nesscomputing.syslog4j.impl.backlog.printstream;
 
 import java.io.PrintStream;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.backlog.AbstractSyslogBackLogHandler;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
 * PrintStreamSyslogBackLogHandler provides a last-chance mechanism to log messages that fail

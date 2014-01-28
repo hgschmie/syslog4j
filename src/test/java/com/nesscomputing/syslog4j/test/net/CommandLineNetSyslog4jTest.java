@@ -16,8 +16,6 @@ package com.nesscomputing.syslog4j.test.net;
 
 import java.net.SocketAddress;
 
-import junit.framework.TestCase;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogMain;
 import com.nesscomputing.syslog4j.server.SyslogServer;
@@ -25,6 +23,8 @@ import com.nesscomputing.syslog4j.server.SyslogServerEventIF;
 import com.nesscomputing.syslog4j.server.SyslogServerIF;
 import com.nesscomputing.syslog4j.server.SyslogServerSessionEventHandlerIF;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import junit.framework.TestCase;
 
 public class CommandLineNetSyslog4jTest extends TestCase {
     public static class CaptureHandler implements SyslogServerSessionEventHandlerIF {

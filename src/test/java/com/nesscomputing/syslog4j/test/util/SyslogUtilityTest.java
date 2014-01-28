@@ -16,14 +16,14 @@ package com.nesscomputing.syslog4j.test.util;
 
 import java.nio.charset.Charset;
 
-import junit.framework.TestCase;
-
-
 import com.google.common.base.Charsets;
+
 import com.nesscomputing.syslog4j.SyslogCharSetIF;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import junit.framework.TestCase;
 
 public class SyslogUtilityTest extends TestCase {
     public static class CharSet implements SyslogCharSetIF {

@@ -18,12 +18,12 @@ import java.net.InetAddress;
 import java.util.Date;
 import java.util.Map;
 
-import junit.framework.TestCase;
-
-
 import com.google.common.collect.Maps;
+
 import com.nesscomputing.syslog4j.impl.message.pci.PCISyslogMessage;
 import com.nesscomputing.syslog4j.impl.message.pci.PCISyslogMessageIF;
+
+import junit.framework.TestCase;
 
 public class PCISyslogMessageTest extends TestCase {
     public class TestSyslogMessage implements PCISyslogMessageIF {

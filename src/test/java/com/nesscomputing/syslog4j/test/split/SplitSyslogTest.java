@@ -16,15 +16,14 @@ package com.nesscomputing.syslog4j.test.split;
 
 import java.util.List;
 
-import junit.framework.TestCase;
-
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogConfigIF;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.test.split.base.SplitSyslog;
 import com.nesscomputing.syslog4j.test.split.base.SplitSyslogConfig;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import junit.framework.TestCase;
 
 public class SplitSyslogTest extends TestCase {
     protected int localNameLength = 0;

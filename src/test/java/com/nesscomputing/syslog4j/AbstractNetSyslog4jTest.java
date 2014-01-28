@@ -19,13 +19,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.nesscomputing.syslog4j.Syslog;
-import com.nesscomputing.syslog4j.SyslogIF;
-import com.nesscomputing.syslog4j.SyslogLevel;
-import com.nesscomputing.syslog4j.SyslogRuntimeException;
+
 import com.nesscomputing.syslog4j.impl.message.pci.PCISyslogMessage;
 import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessage;
 import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessageIF;

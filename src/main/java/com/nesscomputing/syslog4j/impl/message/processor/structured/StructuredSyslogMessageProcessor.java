@@ -17,14 +17,14 @@ package com.nesscomputing.syslog4j.impl.message.processor.structured;
 import static com.nesscomputing.syslog4j.SyslogConstants.STRUCTURED_DATA_APP_NAME_DEFAULT_VALUE;
 import static com.nesscomputing.syslog4j.SyslogConstants.STRUCTURED_DATA_PROCESS_ID_DEFAULT_VALUE;
 
-import org.apache.commons.lang3.ObjectUtils;
-import org.joda.time.format.DateTimeFormatter;
-import org.joda.time.format.ISODateTimeFormat;
-
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.impl.message.processor.AbstractSyslogMessageProcessor;
 import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessage;
+
+import org.apache.commons.lang3.ObjectUtils;
+import org.joda.time.format.DateTimeFormatter;
+import org.joda.time.format.ISODateTimeFormat;
 /**
  * SyslogStructuredMessageProcessor extends SyslogMessageProcessor's ability to
  * split a syslog message into multiple messages when the message is greater

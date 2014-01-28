@@ -3,12 +3,11 @@
 
   <parent>
     <groupId>com.nesscomputing</groupId>
-    <artifactId>ness-oss-parent</artifactId>
-    <version>33</version>
+    <artifactId>ness-root</artifactId>
+    <version>1.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>ness-syslog4j</artifactId>
-  <version>0.9.47-NESS-9-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>syslog4j, Ness Computing style</name>
   <url>http://www.syslog4j.org</url>
@@ -22,29 +21,20 @@
 
   <description>Syslog4j provides client and server implementations of the BSD Syslog protocol (RFC 3164) and the structured syslog" protocol (RFC5424).</description>
 
-  <scm>
-    <connection>scm:git:git@github.com:NessComputing/syslog4j.git</connection>
-    <developerConnection>scm:git:git@github.com:NessComputing/syslog4j.git</developerConnection>
-    <url>https://gtihub.com/NessComputing/syslog4j</url>
-    <tag>HEAD</tag>
-  </scm>
-
   <properties>
-    <ness.skip.check-build>true</ness.skip.check-build> <!-- Ugly, but PMD / FindBugs are very unhappy with the syslog4j code. -->
+    <!-- Ugly, but PMD / FindBugs are very unhappy with the syslog4j code. -->
+    <basepom.check.skip-findbugs>true</basepom.check.skip-findbugs>
+    <basepom.check.skip-pmd>true</basepom.check.skip-pmd>
+    <basepom.check.skip-checkstyle>true</basepom.check.skip-checkstyle>
+    <!-- The Syslog4J library uses an evil static registry, and not every test cleans up properly after itself -->
+    <!-- Fork every test so they can't stomp on each other -->
+    <basepom.test.fork-count>1</basepom.test.fork-count>
+    <basepom.test.reuse-vm>false</basepom.test.reuse-vm>
   </properties>
 
-  <!-- The Syslog4J library uses an evil static registry, and not every test cleans up properly after itself -->
-  <!-- Fork every test so they can't stomp on each other -->
   <build>
     <pluginManagement>
       <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <configuration>
-            <forkMode>always</forkMode>
-          </configuration>
-        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
@@ -83,22 +73,19 @@
     </dependency>
 
     <dependency>
-      <groupId>com.nesscomputing.testing</groupId>
-      <artifactId>findbugs-annotations</artifactId>
-      <version>2.0.0</version>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>annotations</artifactId>
     </dependency>
 
     <dependency>
       <groupId>commons-pool</groupId>
       <artifactId>commons-pool</artifactId>
-      <version>1.6</version>
       <optional>true</optional>
     </dependency>
 
     <dependency>
       <groupId>net.java.dev.jna</groupId>
       <artifactId>jna</artifactId>
-      <version>3.4.0</version>
       <optional>true</optional>
     </dependency>
 
@@ -108,21 +95,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>com.nesscomputing.testing</groupId>
-        <artifactId>kawala-lessio</artifactId>
-        <version>2.2.0</version>
-        <exclusions>
-          <exclusion>
-            <groupId>com.nesscomputing</groupId>
-            <artifactId>ness-syslog4j</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
 </project> 

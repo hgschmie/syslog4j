@@ -14,11 +14,11 @@
  */
 package com.nesscomputing.syslog4j.test.misc;
 
-import junit.framework.TestCase;
-
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogMain;
 import com.nesscomputing.syslog4j.server.SyslogServerMain;
+
+import junit.framework.TestCase;
 
 public class SyslogMainTests extends TestCase {
     public void testSyslogMainSuccesses() {

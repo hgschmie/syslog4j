@@ -14,9 +14,9 @@
  */
 package com.nesscomputing.syslog4j.test.message.processor.structured;
 
-import junit.framework.TestCase;
-
 import com.nesscomputing.syslog4j.impl.message.processor.structured.StructuredSyslogMessageProcessor;
+
+import junit.framework.TestCase;
 
 public class StructuredSyslogMessageProcessorTest extends TestCase {
     public void testCreatingDefaultAndParameters() {

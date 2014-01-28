@@ -19,8 +19,8 @@ import static com.nesscomputing.syslog4j.SyslogConstants.SYSLOG_MESSAGE_MODIFIER
 
 import java.nio.charset.Charset;
 
-
 import com.google.common.base.Charsets;
+
 import com.nesscomputing.syslog4j.SyslogMessageModifierConfigIF;
 /**
 * AbstractSyslogMessageModifierConfig provides a base abstract implementation of the

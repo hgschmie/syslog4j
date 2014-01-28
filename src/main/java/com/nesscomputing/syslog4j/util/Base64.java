@@ -14,10 +14,10 @@
  */
 package com.nesscomputing.syslog4j.util;
 
-import org.apache.log4j.Logger;
-
 import com.google.common.base.Charsets;
 import com.google.common.io.Closeables;
+
+import org.apache.log4j.Logger;
 
 /**
  * <p>Encodes and decodes to and from Base64 notation.</p>

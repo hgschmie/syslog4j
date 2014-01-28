@@ -14,13 +14,13 @@
  */
 package com.nesscomputing.syslog4j.impl.net.tcp.pool;
 
-import org.apache.commons.pool.impl.GenericObjectPool;
-
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.SyslogPoolConfigIF;
 import com.nesscomputing.syslog4j.impl.net.tcp.TCPNetSyslogConfig;
+
+import org.apache.commons.pool.impl.GenericObjectPool;
 /**
 * NetSyslogPoolFactory is an implementation of SyslogPoolConfigIF
 * which provides configuration support for the Apache Commons Pool.

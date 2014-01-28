@@ -16,9 +16,8 @@ package com.nesscomputing.syslog4j.test.net;
 
 import java.util.List;
 
-import org.junit.Ignore;
-
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.AbstractNetSyslog4jTest;
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogBackLogHandlerIF;
@@ -28,6 +27,8 @@ import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogConfigIF;
 import com.nesscomputing.syslog4j.server.SyslogServer;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.junit.Ignore;
 
 @Ignore
 public class BackLogTCPNetSyslog4jTest extends AbstractNetSyslog4jTest {

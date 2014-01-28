@@ -22,10 +22,6 @@ import java.net.Socket;
 
 import javax.net.ServerSocketFactory;
 
-import junit.framework.TestCase;
-
-import org.apache.log4j.Logger;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogBackLogHandlerIF;
 import com.nesscomputing.syslog4j.SyslogConstants;
@@ -36,6 +32,10 @@ import com.nesscomputing.syslog4j.impl.backlog.NullSyslogBackLogHandler;
 import com.nesscomputing.syslog4j.impl.net.tcp.TCPNetSyslogConfig;
 import com.nesscomputing.syslog4j.impl.net.tcp.TCPNetSyslogConfigIF;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.log4j.Logger;
+
+import junit.framework.TestCase;
 
 public class MaxQueueSizeTest extends TestCase {
     protected static final Logger LOG = Logger.getLogger("test");

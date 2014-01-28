@@ -14,8 +14,6 @@
  */
 package com.nesscomputing.syslog4j.test.misc;
 
-import junit.framework.TestCase;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;
@@ -27,6 +25,8 @@ import com.nesscomputing.syslog4j.impl.net.udp.UDPNetSyslogConfig;
 import com.nesscomputing.syslog4j.server.SyslogServer;
 import com.nesscomputing.syslog4j.server.SyslogServerIF;
 import com.nesscomputing.syslog4j.server.impl.net.udp.UDPNetSyslogServerConfig;
+
+import junit.framework.TestCase;
 
 public class SyslogCreateAndDestroyTest extends TestCase {
     public static class FakeMessageProcessor implements SyslogMessageProcessorIF {

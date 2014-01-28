@@ -16,11 +16,6 @@ package com.nesscomputing.syslog4j.impl.log4j;
 
 import java.nio.charset.Charset;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.AppenderSkeleton;
-import org.apache.log4j.helpers.LogLog;
-import org.apache.log4j.spi.LoggingEvent;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;
@@ -28,6 +23,11 @@ import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogConfigIF;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.AppenderSkeleton;
+import org.apache.log4j.helpers.LogLog;
+import org.apache.log4j.spi.LoggingEvent;
 
 /**
  * Syslog4jAppenderSkeleton provides an extensible Log4j Appender wrapper for Syslog4j.

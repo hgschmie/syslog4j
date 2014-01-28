@@ -14,14 +14,14 @@
  */
 package com.nesscomputing.syslog4j.impl.backlog.log4j;
 
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
-
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.backlog.AbstractSyslogBackLogHandler;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.LoggerFactory;
 
 /**
 * Log4jSyslogBackLogHandler is used to send Syslog backLog messages to

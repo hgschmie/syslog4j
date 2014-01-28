@@ -14,13 +14,13 @@
  */
 package com.nesscomputing.syslog4j.impl.net.tcp.pool;
 
-import org.apache.log4j.Logger;
-
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogWriter;
 import com.nesscomputing.syslog4j.impl.net.tcp.TCPNetSyslog;
 import com.nesscomputing.syslog4j.impl.pool.AbstractSyslogPoolFactory;
 import com.nesscomputing.syslog4j.impl.pool.generic.GenericSyslogPoolFactory;
+
+import org.apache.log4j.Logger;
 
 /**
 * PooledTCPNetSyslog is an extension of TCPNetSyslog which provides support

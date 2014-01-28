@@ -14,14 +14,14 @@
  */
 package com.nesscomputing.syslog4j.test.unix;
 
-import junit.framework.TestCase;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.impl.AbstractSyslog;
 import com.nesscomputing.syslog4j.impl.unix.UnixSyslogConfig;
+
+import junit.framework.TestCase;
 public class UnixSyslogTest extends TestCase {
     public void testUnixSyslogConfig() {
         UnixSyslogConfig config = new UnixSyslogConfig();

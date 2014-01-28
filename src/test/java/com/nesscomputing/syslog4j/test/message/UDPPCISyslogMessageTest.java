@@ -17,8 +17,8 @@ package com.nesscomputing.syslog4j.test.message;
 import java.util.Date;
 import java.util.List;
 
-
 import com.google.common.collect.Lists;
+
 import com.nesscomputing.syslog4j.AbstractNetSyslog4jTest;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.impl.message.pci.PCISyslogMessage;

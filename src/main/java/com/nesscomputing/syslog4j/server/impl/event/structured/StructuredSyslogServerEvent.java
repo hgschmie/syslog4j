@@ -16,14 +16,14 @@ package com.nesscomputing.syslog4j.server.impl.event.structured;
 
 import java.net.InetAddress;
 
+import com.nesscomputing.syslog4j.SyslogConstants;
+import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessage;
+import com.nesscomputing.syslog4j.server.impl.event.SyslogServerEvent;
+
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.ISODateTimeFormat;
-
-import com.nesscomputing.syslog4j.SyslogConstants;
-import com.nesscomputing.syslog4j.impl.message.structured.StructuredSyslogMessage;
-import com.nesscomputing.syslog4j.server.impl.event.SyslogServerEvent;
 
 /**
  * SyslogServerStructuredEvent provides an implementation of the

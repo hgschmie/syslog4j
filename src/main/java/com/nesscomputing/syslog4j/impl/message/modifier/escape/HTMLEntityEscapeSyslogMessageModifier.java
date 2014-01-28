@@ -14,12 +14,12 @@
  */
 package com.nesscomputing.syslog4j.impl.message.modifier.escape;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.SyslogLevel;
 import com.nesscomputing.syslog4j.SyslogMessageModifierIF;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
 * HTMLEntityEscapeSyslogMessageModifier is an implementation of SyslogMessageModifierIF

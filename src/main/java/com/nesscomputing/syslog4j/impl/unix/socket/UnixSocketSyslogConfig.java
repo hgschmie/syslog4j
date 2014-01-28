@@ -14,13 +14,13 @@
  */
 package com.nesscomputing.syslog4j.impl.unix.socket;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogFacility;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.impl.AbstractSyslogConfig;
+
+import org.apache.commons.lang3.StringUtils;
 /**
 * UnixSocketSyslogConfig is an extension of AbstractNetSyslogConfig that provides
 * configuration support for Unix socket-based syslog clients.

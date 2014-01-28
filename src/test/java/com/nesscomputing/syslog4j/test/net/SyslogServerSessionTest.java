@@ -16,10 +16,6 @@ package com.nesscomputing.syslog4j.test.net;
 
 import java.net.SocketAddress;
 
-import junit.framework.TestCase;
-
-import org.apache.log4j.Logger;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogConfigIF;
 import com.nesscomputing.syslog4j.SyslogIF;
@@ -35,6 +31,10 @@ import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServer;
 import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServerConfig;
 import com.nesscomputing.syslog4j.server.impl.net.udp.UDPNetSyslogServerConfig;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.log4j.Logger;
+
+import junit.framework.TestCase;
 
 public class SyslogServerSessionTest extends TestCase {
     protected static final Logger LOG = Logger.getLogger("test");

@@ -21,14 +21,15 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.google.common.collect.Maps;
+
 import com.nesscomputing.syslog4j.SyslogConstants;
 import com.nesscomputing.syslog4j.SyslogRuntimeException;
 import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServerConfig;
 import com.nesscomputing.syslog4j.server.impl.net.udp.UDPNetSyslogServerConfig;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import org.apache.commons.lang3.StringUtils;
 /**
  * This class provides a Singleton-based interface for Syslog4j
  * server implementations.

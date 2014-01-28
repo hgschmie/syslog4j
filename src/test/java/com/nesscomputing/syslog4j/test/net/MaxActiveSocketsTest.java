@@ -16,8 +16,6 @@ package com.nesscomputing.syslog4j.test.net;
 
 import java.net.SocketAddress;
 
-import junit.framework.TestCase;
-
 import com.nesscomputing.syslog4j.Syslog;
 import com.nesscomputing.syslog4j.SyslogIF;
 import com.nesscomputing.syslog4j.impl.net.tcp.TCPNetSyslogConfig;
@@ -29,6 +27,8 @@ import com.nesscomputing.syslog4j.server.SyslogServerSessionlessEventHandlerIF;
 import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServerConfig;
 import com.nesscomputing.syslog4j.server.impl.net.tcp.TCPNetSyslogServerConfigIF;
 import com.nesscomputing.syslog4j.util.SyslogUtility;
+
+import junit.framework.TestCase;
 
 public class MaxActiveSocketsTest extends TestCase {
     public class Counter implements SyslogServerSessionlessEventHandlerIF {
